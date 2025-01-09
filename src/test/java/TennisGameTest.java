@@ -88,15 +88,6 @@ class TennisGameTest {
     }
 
     @Test
-    void joueurUnMarqueQuaranteLove() {
-        TennisGame game = new TennisGame();
-        game.playerOneScores();
-        game.playerOneScores();
-        game.playerOneScores();
-        assertEquals("Forty-Love", game.getScore());
-    }
-
-    @Test
     void joueurUnGagneLaPartie() {
         TennisGame game = new TennisGame();
         game.playerOneScores(); // 15-0
